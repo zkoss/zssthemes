@@ -542,12 +542,14 @@
 	font-family: Calibri;
 	font-size: 15px;
 	border: none;
-	display: none;
+	//display: none;
 	background-color: white;
 	overflow: hidden;
 	border: 1px solid #000000;
 	white-space: pre-wrap;
 	z-index: 4;
+	top: -10005px;
+	left: -10005px;
 }
 
 .zsfocus{
