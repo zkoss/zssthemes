@@ -5,7 +5,7 @@
 	<artifactId>classic</artifactId>
 	<version>1.0.0</version>
 	<properties>
-		<zk.version>7.0.2</zk.version>
+		<zk.version>7.0.3</zk.version>
 		<maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
 		<packname>-${project.version}</packname>
 	</properties>
@@ -28,7 +28,7 @@
 		<repository>
 			<id>ZK EE Eval</id>
 			<name>ZK EE Eval Repository</name>
-			<url>http://mavensync.zkoss.org/eval/</url>
+			<url>http://mavensync.zkoss.org/zk/ee-eval</url>
 		</repository>
 	</repositories>
 	<pluginRepositories>
