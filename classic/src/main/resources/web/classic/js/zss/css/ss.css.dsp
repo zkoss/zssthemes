@@ -1592,6 +1592,15 @@
 .zssheet .z-north .z-toolbar-tabs {
 	display: none;
 }
+
+/* format dialog item text should show in red */
+.redItem .z-listcell-content {
+	color: red;
+}
+.redItem:hover>.z-listcell>.z-listcell-content {
+	color: red;
+}
+
 .cleditorMain {border:1px solid #999; padding:0 1px 1px; background-color:white}
 .cleditorMain,
 .cleditorPopup,
