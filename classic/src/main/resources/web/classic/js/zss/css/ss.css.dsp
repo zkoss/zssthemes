@@ -1600,6 +1600,9 @@
 .redItem:hover>.z-listcell>.z-listcell-content {
 	color: red;
 }
+.redItem.z-listitem-selected>.z-listcell>.z-listcell-content {
+    color: red;
+}
 
 .cleditorMain {border:1px solid #999; padding:0 1px 1px; background-color:white}
 .cleditorMain,
