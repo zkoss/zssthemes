@@ -1580,7 +1580,7 @@
 /* zss tab selection box end*/
 
 .z-initing {
-	background-image: url('http://www.zkoss.org/zk/img/${s:encodeWithZSS("zsspowered.png")}');
+	background-image: url('//www.zkoss.org/zk/img/${s:encodeWithZSS("zsspowered.png")}');
 }
 
 /* hide toolbar tab */
