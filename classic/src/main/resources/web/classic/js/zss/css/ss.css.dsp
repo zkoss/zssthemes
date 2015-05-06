@@ -118,16 +118,372 @@
 	</c:if>
 }
 
+/* ZSS-568: double border 15 combinations*/
+.zscell.tlbr:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:1px;
+    border-top:1px solid #f00;
+    border-left:1px solid #f00;
+    border-bottom:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-left-color:inherit;
+    border-bottom-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell._lbr:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:1px;
+    border-left:1px solid #f00;
+    border-bottom:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-left-color:inherit;
+    border-bottom-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell.t_br:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:1px;
+    border-top:1px solid #f00;
+    border-bottom:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-bottom-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell.tl_r:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:1px;
+    border-top:1px solid #f00;
+    border-left:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-left-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell.tlb_:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:0px;
+    border-top:1px solid #f00;
+    border-left:1px solid #f00;
+    border-bottom:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-left-color:inherit;
+    border-bottom-color:inherit;
+}
+
+.zscell.__br:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:1px;
+    border-bottom:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-bottom-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell._l_r:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:1px;
+    border-left:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-left-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell._lb_:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:0px;
+    border-left:1px solid #f00;
+    border-bottom:1px solid #f00;
+    
+    border-left-color:inherit;
+    border-bottom-color:inherit;
+}
+
+.zscell.t__r:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:1px;
+    border-top:1px solid #f00;
+    border-right:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-right-color:inherit;
+}
+
+.zscell.t_b_:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:0px;
+    border-top:1px solid #f00;
+    border-bottom:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-bottom-color:inherit;
+}
+
+.zscell.tl__:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:1px solid #f00;
+    border-left:1px solid #f00;
+    
+    border-top-color:inherit;
+    border-left-color:inherit;
+}
+
+.zscell.___r:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:1px;
+    border-right:1px solid #f00;
+    
+    border-right-color:inherit;
+}
+
+.zscell.__b_:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:0px;
+    border-bottom:1px solid #f00;
+    
+    border-bottom-color:inherit;
+}
+
+.zscell._l__:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:1px;
+    border-left:1px solid #f00;
+    
+    border-left-color:inherit;
+}
+
+.zscell.t___:before {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:1px;right:0px;
+    border-top:1px solid #f00;
+    
+    border-top-color:inherit;
+}
+
+/* ZSS-901: auto filter border 15 combinations*/
+.zscell.aftlbr:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-left:2px dashed #0088B0;
+    border-bottom:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.af_lbr:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-left:2px dashed #0088B0;
+    border-bottom:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.aft_br:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-bottom:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.aftl_r:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-left:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.aftlb_:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-left:2px dashed #0088B0;
+    border-bottom:2px dashed #0088B0;
+}
+
+.zscell.af__br:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-bottom:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.af_l_r:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-left:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.af_lb_:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-left:2px dashed #0088B0;
+    border-bottom:2px dashed #0088B0;
+}
+
+.zscell.aft__r:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.aft_b_:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-bottom:2px dashed #0088B0;
+}
+
+.zscell.aftl__:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+    border-left:2px dashed #0088B0;
+}
+
+.zscell.af___r:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-right:2px dashed #0088B0;
+}
+
+.zscell.af__b_:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-bottom:2px dashed #0088B0;
+}
+
+.zscell.af_l__:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-left:2px dashed #0088B0;
+}
+
+.zscell.aft___:after {
+    content:"";
+    position:absolute;
+    z-index:-10;
+    top:0px;left:0px;
+    bottom:0px;right:0px;
+    border-top:2px dashed #0088B0;
+}
+
+
 .zscell-overflow {
 	border-right: 1px;
 	border-right-style:hidden;
 	overflow: visible;
 	position: relative;
+	z-index: 11; /* ZSS-917 see zscell's z-index */ 
 }
 
 .zscell-overflow-b {
 	overflow: visible;
 	position: relative;
+	z-index: 11; /* ZSS-917 see zscell's z-index */
 }
 
 .zscelltxt {
@@ -149,6 +505,21 @@
 		left: 0;
 		position: absolute;
 	</c:if>
+}
+
+/* ZSS-918: vertical text */
+.zsvtxt {
+    display: -moz-inline-box;
+    width:1em;
+    font-size:inherit;
+    word-wrap:break-word;
+    white-space:normal;
+    letter-spacing:1em;
+    display: inline-block;
+    <c:if test="${c:browser('ie') and not c:browser('ie11')}">
+        zoom: 1;
+        *display: inline;
+    </c:if>
 }
 
 .zscelltxt-wrap{
@@ -740,7 +1111,7 @@
 	width:17px;
 	position: absolute;
 	bottom: 2px;
-	z-index: 10;
+	z-index: 12;
 	background-repeat:no-repeat;
 	background-size: 100%;
 }
@@ -1595,10 +1966,10 @@
 
 /* format dialog item text should show in red */
 .redItem .z-listcell-content {
-	color: red;
+    color: red;
 }
 .redItem:hover>.z-listcell>.z-listcell-content {
-	color: red;
+    color: red;
 }
 .redItem.z-listitem-selected>.z-listcell>.z-listcell-content {
     color: red;
