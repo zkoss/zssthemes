@@ -1602,6 +1602,11 @@
 	height: 26px;
 }
 
+/* ZSS-1076 */
+.zstbtn img {
+    width: 16px;
+}
+    
 <c:if test="${c:browser('ie6-')}">
 .zstbtn .zstbtn-cave {
 	margin-right: -12px;
@@ -1722,6 +1727,12 @@
 	display: inline-block;
 	border: 0;
 	padding: 0 1px;
+}
+
+/* ZSS-1072 */
+.zsfontfamily-calibri .z-comboitem-text {
+    font-family:Calibri;
+    font-size: 18px;
 }
 
 .zsfontfamily-arial .z-comboitem-text {
