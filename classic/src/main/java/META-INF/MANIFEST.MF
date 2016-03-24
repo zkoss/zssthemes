@@ -7,8 +7,8 @@ Bundle-License: http://www.gnu.org/licenses/gpl.html
 Bundle-ManifestVersion: 2
 Bundle-Name: org.zkoss.zss.theme.classic
 Bundle-SymbolicName: classic
-Bundle-Version: 1.0.4
+Bundle-Version: 1.0.5
 Created-By: Apache Maven Bundle Plugin
-Export-Package: metainfo.zk;version="1.0.4"
+Export-Package: metainfo.zk;version="1.0.5"
 Import-Package: org.zkoss.zk.ui,org.zkoss.zk.ui.util,org.zkoss.zul.theme
 Tool: Bnd-1.50.0
