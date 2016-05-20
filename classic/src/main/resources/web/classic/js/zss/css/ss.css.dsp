@@ -1217,7 +1217,7 @@
 }
 
 .zsafp-valuedlg {
-    width: 146px;
+    width: 186px;
     display: none;
     background: #FFFFFF;
     border: 1px solid #868686;
@@ -1275,9 +1275,7 @@
 .zsafp-vitems {
     overflow-y: auto;
     overflow-x: hidden;
-    max-height: 139px;
     width: 100%;
-    border-bottom: 1px solid #D8D8D8;
     position: relative;
 }
 
@@ -1287,6 +1285,10 @@
     background-position: left center;
     font-size: 13px;
     cursor: pointer;
+}
+
+.zsafp-vitem.zsafp-vitem-border {
+    border-bottom: 1px solid #D8D8D8;
 }
 
 .zsafp-vitem:hover {
