@@ -3,10 +3,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.zkoss.zss.theme</groupId>
 	<artifactId>classic</artifactId>
-	<version>1.0.6</version>
+	<version>1.0.7-SNAPSHOT</version>
 	<properties>
 		<zk.version>8.0.1.1</zk.version>
-		<zss.version>3.9.1</zss.version>
+		<zss.version>3.9.2-SNAPSHOT</zss.version>
 		<maven.build.timestamp.format>yyyy-MM-dd</maven.build.timestamp.format>
 		<packname>-${project.version}</packname>
 	</properties>
