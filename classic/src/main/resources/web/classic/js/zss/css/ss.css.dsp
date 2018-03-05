@@ -500,6 +500,22 @@
     white-space: pre; /* ZSS-1118 */
 }
 
+/* ZSS-1338, define after zscelltxt to override */
+.zscell-overflow-right-alignment-text{
+	position: relative;
+    overflow: visible;
+}
+
+/* ZSS-1338 */
+.zscell-overflow-partial-right-alignment-text{
+    position: relative;
+    padding-left: 0px;
+}
+
+.zscell-right-alignment{
+    position: relative;
+}
+
 /* ZSS-1142: databar border. henrichen: would cover cell text; don't use it */
 //.zscelltxt.dbar:before {
 //    content:"";
